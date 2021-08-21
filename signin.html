@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" href="#" type="image/x-icon" /> -->
+    <title>NETFLIX</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="signinStyle.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <a class="logo" href="index.html">
+      <img src="./images/logo.png" />
+    </a>
+
+    <section class="container">
+      <div class="login">
+        <h1 class="login__title">Sign In</h1>
+        <div class="login__group">
+          <input class="login__group__input" type="text" required="true" />
+          <label class="login__group__label">Email or phone number</label>
+        </div>
+        <div class="login__group">
+          <input class="login__group__input" type="password" required="true" />
+          <label class="login__group__label">Password</label>
+        </div>
+        <a
+          href="lastpage.html"
+          class="login__sign-in"
+          style="padding: 18px 120px"
+        >
+          Sign In</a
+        >
+
+        <div class="login__secondary-cta">
+          <a class="login__secondary-cta__text" href="#">
+            <input type="checkbox" name="checkbox" id="ck_box" /> Remember me</a
+          >
+          <a
+            class="
+              login__secondary-cta__text login__secondary-cta__text--need-help
+            "
+            href="#"
+            >Need help?</a
+          >
+        </div>
+
+        <div class="login__secondary-cta__text" id="ask">
+          <p>New to Netflix?</p>
+          <a href="index.html"> <h4>Sign up now</h4></a>
+        </div>
+        <div class="login__secondary-cta__text">
+          <p>
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot.
+          </p>
+          <a href="">learn more</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
